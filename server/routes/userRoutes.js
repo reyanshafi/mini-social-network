@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { registerUser, loginUser, getUserProfile, getUserProfileByUsername, updateUserProfile, searchUsers, followUser, unfollowUser, uploadAvatar } = require('../controllers/userController');
 const { protect } = require('../middleware/authMiddleware'); 
-const { multerUpload, storyUpload } = require('../middleware/multer');
+const { multerUpload } = require('../middleware/multer');
 
 
 // The route for registering a user
