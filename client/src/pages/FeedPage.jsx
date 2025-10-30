@@ -113,8 +113,8 @@ const FeedPage = () => {
   // Placeholder for opening the upload modal
   const handleAddStoryClick = () => {
     console.log("Open add story modal...");
-    // We will build this modal next
   };
+  
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-2xl mx-auto px-4 py-8">
